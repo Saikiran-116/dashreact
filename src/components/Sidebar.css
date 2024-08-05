@@ -1,0 +1,50 @@
+.sidebar {
+    width: 250px;
+    background-color: #2f2f3f;
+    color: #aaa;
+    padding: 20px;
+  }
+  
+ 
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+  }
+  
+  .sidebar li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .sidebar li:hover {
+    background-color: #3f3f4f;
+  }
+  
+  .sidebar li .icon {
+    font-size: 24px; /* Adjust icon size */
+  }
+ 
+  .sidebar .logout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: relative;
+    top: 60pc;
+  }
+  
+  .sidebar .logout:hover {
+    background-color: #3f3f4f;
+  }
+  
+  .sidebar .logout .icon {
+    font-size: 1.8em; /* Adjust icon size */
+  }

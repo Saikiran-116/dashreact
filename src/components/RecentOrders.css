@@ -1,0 +1,58 @@
+.recent-orders {
+    background-color: #202028;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+  }
+  
+  .recent-orders table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .recent-orders th,
+  .recent-orders td {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .recent-orders th {
+    border-bottom: 1px solid #ffffff36;
+    padding-bottom: 20px;
+  }
+  
+  
+  .recent-orders tr {
+    border-bottom: 1px solid #ffffff36;
+
+  }
+  .customer-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  .status {
+    color: white;
+    border-radius: 10px;
+    padding: 3px 15px;
+    font-size: 12px;
+    text-align: center;
+    display: inline-block;
+  }
+  .delivered {
+    background-color: #165447;
+    
+  }
+  
+  .cancelled {
+    background-color: #ff09096e;
+   
+  }
+  
+  .pending {
+    background-color: #ff09096e;
+    
+  }

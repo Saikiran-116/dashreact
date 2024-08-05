@@ -1,0 +1,11 @@
+.activity-chart {
+    background-color: #202028;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 2;
+  }
+  
+  .activity-chart h3 {
+    margin-bottom: 20px;
+  }
+  
